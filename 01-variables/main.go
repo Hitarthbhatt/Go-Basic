@@ -31,7 +31,8 @@ func main() {
 
 	// --- 4. Multiple assignment ---
 	x, y := 10, 20
-	fmt.Println(x, y)
+	x, y = y, x
+	fmt.Println("x, y value - ", x, y)
 
 	// --- 5. Constants ---
 	const maxScore = 100
@@ -39,7 +40,7 @@ func main() {
 	fmt.Println(maxScore, appName)
 
 	// --- 6. Type conversion (explicit, no implicit — unlike Swift) ---
-	var intVal int = 42
+	var intVal = 42
 	floatVal := float64(intVal) // must cast manually
 	fmt.Println(floatVal)
 }

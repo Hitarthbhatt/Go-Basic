@@ -3,7 +3,8 @@
     "allow": [
       "Bash(code *)",
       "Bash(go version *)",
-      "Bash(gh auth *)"
+      "Bash(gh auth *)",
+      "Bash(gh repo *)"
     ]
   }
 }
