@@ -1,0 +1,40 @@
+{
+  "editor.tabSize": 4,
+  "editor.insertSpaces": false,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": true,
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "left",
+  "go.useLanguageServer": true,
+  "gopls": {
+    "ui.diagnostic.staticcheck": true
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "editor.fontFamily": "SF Mono, Menlo, Monaco, Courier New, monospace",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.5,
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "entity.name.type.struct.go",
+          "entity.name.type.interface.go",
+          "entity.name.type.class.go",
+          "entity.name.type.go"
+        ],
+        "settings": {
+          "fontStyle": "bold"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "golang.go",
+    "tinkertrain.theme-xcode",
+    "ms-vscode.cpptools",
+    "vadimcn.vscode-lldb",
+    "moussetc.xcode-keybinding"
+  ]
+}
